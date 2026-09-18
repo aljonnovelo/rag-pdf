@@ -9,3 +9,7 @@ Run the Inngest development server
 Run Docker for the Qdrant storage
 
 `docker run -d --name qdrantRagDb -p 6333:6333 -v "$(pwd)/qdrant_storage:/qdrant/storage" qdrant/qdrant`
+
+Run the frontend
+
+`uv run streamlit run .\streamlit_app.py`
